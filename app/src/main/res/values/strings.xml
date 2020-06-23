@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Helpnow</string>
+    <string name="title">GetHelpNow</string>
+    <string name="initiative">An IIT Bombay Student-Alumni Initiative</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="resend_code">If you didn\'t receive a code ?</string>
+    <string name="resend">Resend</string>
+    <string name="verify">Verify</string>
+    <string name="order_medicine">Order Medicine</string>
+    <string name="doctor_on_call">Doctor on Call</string>
+    <string name="book_ambulance">Book Ambulance</string>
+    <string name="medical_crowdfunding">Medical Crowd\nfunding</string>
+    <string name="get_otp">Get OTP</string>
+</resources>

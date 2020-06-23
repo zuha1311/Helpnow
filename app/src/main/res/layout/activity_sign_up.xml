@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signUp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/status_bar_"
+            android:layout_width="411dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/statusbar" />
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="86dp"
+            android:layout_marginTop="80dp"
+           android:layout_centerHorizontal="true"
+            android:id="@+id/heart"
+            android:src="@drawable/heart"/>
+
+
+        <ImageView
+            android:id="@+id/heartplus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/heartplus" />
+
+        <ImageView
+            android:id="@+id/apptitle"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_below="@+id/heart"
+            android:layout_marginLeft="124dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="122dp"
+            android:layout_marginBottom="472dp"
+            android:background="@drawable/appname" />
+
+        <ImageView
+            android:id="@+id/iit"
+            android:layout_width="226dp"
+            android:layout_height="12dp"
+            android:background="@drawable/iit"
+            android:layout_marginTop="257dp"
+            android:layout_centerHorizontal="true"/>
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/phoneLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:hint="@string/phone"
+            android:layout_below="@+id/iit"
+            app:hintTextColor="#808080"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="@color/colorPrimary">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:drawableStart="@drawable/phone"
+                android:drawablePadding="10dp"
+                android:maxLength="10"
+                android:maxLines="1"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="328dp"
+            android:layout_height="48dp"
+            android:background="#3BB9FF"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="390dp"
+            android:text="Enter OTP"
+            android:textColor="#ffffff"
+            android:id="@+id/enter_otp"/>
+
+        <ImageView
+            android:id="@+id/bg"
+            android:layout_width="428dp"
+            android:layout_height="317dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="495dp"
+            android:background="@drawable/bg" />
+
+        <ImageView
+            android:layout_width="418dp"
+            android:layout_height="190dp"
+            android:src="@drawable/buildingbg"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="495dp"
+            android:layout_marginLeft="100dp"/>
+
+        <ImageView
+            android:layout_width="418dp"
+            android:layout_height="260dp"
+            android:src="@drawable/bgbuilding2"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="495dp"
+            android:layout_marginRight="350dp"/>
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="60dp"
+            android:src="@drawable/loc"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="640dp"
+            android:id="@+id/loc"/>
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:src="@drawable/mumbai"
+            android:id="@+id/mumbai"
+            android:layout_toRightOf="@+id/loc"
+            android:layout_toEndOf="@+id/loc"
+            android:layout_marginTop="640dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageView
+            android:layout_width="188dp"
+            android:layout_height="28dp"
+            android:src="@drawable/weserve"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/weserve"
+            android:layout_marginTop="605dp"/>
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="90dp"
+            android:src="@drawable/stetho"
+            android:layout_marginTop="640dp"
+            android:layout_marginLeft="320dp"/>
+
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

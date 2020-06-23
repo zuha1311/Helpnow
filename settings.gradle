@@ -1,0 +1,2 @@
+rootProject.name='Helpnow'
+include ':app'
